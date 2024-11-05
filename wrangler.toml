@@ -1,4 +1,4 @@
-name = "newsnow-project"  # 你的项目名称
+name = "newsnow"  # 你的项目名称
 type = "javascript"
 
 [[d1_databases]]
