@@ -159,10 +159,11 @@ export const originSources = {
         type: "realtime",
       },
       depth: {
-        title: "深度头条",
-        // invalid, not way to get
-        disable: true,
-        interval: Time.Common,
+        title: "深度",
+      },
+      hot: {
+        title: "热门",
+        type: "hottest",
       },
     },
   },
@@ -280,6 +281,24 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://www.baidu.com",
+  },
+  "linuxdo": {
+    name: "LINUX DO",
+    column: "tech",
+    color: "slate",
+    home: "https://linux.do/",
+    sub: {
+      latest: {
+        title: "最新",
+        home: "https://linux.do/latest",
+      },
+      hot: {
+        title: "今日最热",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://linux.do/hot",
+      },
+    },
   },
 } as const satisfies Record<string, OriginSource>
 

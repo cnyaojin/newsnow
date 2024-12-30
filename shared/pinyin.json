@@ -14,7 +14,8 @@
   "thepaper": "pengpaixinwen-rebang",
   "cankaoxiaoxi": "cankaoxiaoxi",
   "cls-telegraph": "cailianshe-dianbao",
-  "cls-depth": "cailianshe-shendutoutiao",
+  "cls-depth": "cailianshe-shendu",
+  "cls-hot": "cailianshe-remen",
   "xueqiu-hotstock": "xueqiu-remengupiao",
   "gelonghui": "gelonghui-shijian",
   "fastbull-express": "fabucaijing-kuaixun",
@@ -26,5 +27,7 @@
   "bilibili-hot-search": "bilibili-resou",
   "kaopu": "kaopuxinwen",
   "jin10": "jinshishuju",
-  "baidu": "baiduresou"
+  "baidu": "baiduresou",
+  "linuxdo-latest": "Linux DO-zuixin",
+  "linuxdo-hot": "Linux DO-remen"
 }
